@@ -1,0 +1,17 @@
+
+#container-board{
+    background: green;
+    width: 280px;
+}
+/*
+#container-board:hover{
+    background: orange;
+}*/
+
+.btn-board{
+    width: 27%;
+}
+
+.btn-board-delete{
+    width: 60%;
+}

@@ -1,0 +1,85 @@
+
+<div id="container-board"
+(mouseenter)="hideNumbers()"
+(mouseout)="showNumbers()"
+>
+    <button type="button" 
+        class="btn btn-light btn-board m-2"
+        (click)="setValue( numbers_tmp[0] )"
+        (mouseenter)="hideNumbers()"
+        >
+        {{ numbers[0] }} +
+    </button>
+    <button type="button" 
+        class="btn btn-light btn-board m-2"
+        (click)="setValue( numbers_tmp[1] )"
+        (mouseenter)="hideNumbers()"
+        >
+        {{ numbers[1] }}
+    </button>
+    <button type="button" 
+        class="btn btn-light btn-board m-2"
+        (click)="setValue( numbers_tmp[2] )"
+        (mouseenter)="hideNumbers()"
+        >
+        {{ numbers[2] }}
+    </button>
+    <button type="button" 
+        class="btn btn-light btn-board m-2"
+        (click)="setValue( numbers_tmp[3] )"
+        >
+        {{ numbers[3] }}
+    </button>
+    <button type="button" 
+        class="btn btn-light btn-board m-2"
+        (click)="setValue( numbers_tmp[4] )"
+        >
+        {{ numbers[4] }}
+    </button>
+    <button type="button" 
+        class="btn btn-light btn-board m-2"
+        (click)="setValue( numbers_tmp[5] )"
+        >
+        {{ numbers[5] }}
+    </button>
+    <button type="button" 
+        class="btn btn-light btn-board m-2"
+        (click)="setValue( numbers_tmp[6] )"
+        >
+        {{ numbers[6] }}
+    </button>
+    <button type="button" 
+        class="btn btn-light btn-board m-2"
+        (click)="setValue( numbers_tmp[7] )"
+        >
+        {{ numbers[7] }}
+    </button>
+    <button type="button" 
+        class="btn btn-light btn-board m-2"
+        (click)="setValue( numbers_tmp[8] )"
+        >
+        {{ numbers[8] }}
+    </button>
+    <button type="button" 
+        class="btn btn-light btn-board m-2"
+        (click)="setValue( numbers_tmp[9] )"
+        >
+        {{ numbers[9] }}
+    </button>
+    <button type="button" class="btn btn-light btn-board-delete m-2"
+        (click)="shuffleArray()"
+    >
+        Borrar
+    </button>
+</div>
+
+<button type="button" class="btn btn-light btn-board-delete m-2"
+    (click)="hideNumbers()"
+>
+    ocultar
+</button>
+<button type="button" class="btn btn-light btn-board-delete m-2"
+    (click)="showNumbers()"
+>
+    mostrar
+</button>
